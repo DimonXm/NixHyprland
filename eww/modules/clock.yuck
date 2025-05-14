@@ -1,0 +1,8 @@
+(defwindow clock []
+    :geometry (geometry :x 1460 :y 830)
+    :monitor 0
+    :wm-ignore true
+    :stacking "bg"
+    :window-type dock
+    (label :class "clock" :text {formattime(EWW_TIME, "%H:%M")})
+  )
